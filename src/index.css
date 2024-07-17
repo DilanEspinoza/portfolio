@@ -1,68 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+	/* colores opcionales 
+  --primer-color: #60696b;
+	--segundo-color: #858e96;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+	--tercer-color: #08203e;
+	--cuarto-color: #557c93; */
+	--primer-color: #0e1c26;
+	--segundo-color: #2a454b;
+	--tercer-color: #294861;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	/* --primer-color-text: #49585a; */
+	--primer-color-text: #808080;
+
+	--primer-color-btn-1: #4a9b7f;
+	--segundo-color-btn-1: #0a3431;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+/* Tones
+Created by adding grey to a base color, making it lighter. Shades appear more complex than the base color.
+
+--tones-primer-color:#253038;
+--tones-primer-color:#3c444a;
+--tones-primer-color:#52585c;
+--tones-primer-color:#696c6e;
+--tones-primer-color:#808080;
+*/
+
+/* Shades
+Created by adding black to the base color, making it darker. The shades look richer.
+--shades--primer-color:#0e1c26;
+--shades--primer-color:#0b161e;
+--shades--primer-color:#081117;
+--shades--primer-color:#060b0f;
+--shades--primer-color:#030608;
+--shades--primer-color:#000000;
+
+ */
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+	/* background: linear-gradient(
+		90deg,
+		var(--primer-color) 10%,
+		var(--segundo-color) 50%,
+		var(--tercer-color) 100%
+	);
+
+	background: -moz-linear-gradient(
+		90deg,
+		var(--primer-color) 10%,
+		var(--segundo-color) 50%,
+		var(--tercer-color) 100%
+	);
+
+	background: -webkit-linear-gradient(
+		90deg,
+		var(--primer-color) 10%,
+		var(--segundo-color) 50%,
+		var(--tercer-color) 100%
+	); */
+
+	/* background: var(--primer-color); */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E1C26", endColorstr="#2A454B", GradientType=1 );
+}
+
+.primer-boton {
+	background: var(--primer-color-btn-1);
+
+	background: linear-gradient(
+		90deg,
+		var(--primer-color-btn-1) 0%,
+		var(--segundo-color-btn-1) 100%
+	);
+
+	background: -moz-linear-gradient(
+		90deg,
+		hsla(159, 35%, 45%, 1) 0%,
+		hsla(176, 68%, 12%, 1) 100%
+	);
+
+	background: -webkit-linear-gradient(
+		90deg,
+		hsla(159, 35%, 45%, 1) 0%,
+		hsla(176, 68%, 12%, 1) 100%
+	);
+
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4A9B7F", endColorstr="#0A3431", GradientType=1 );
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+	color: var(--primer-color-text);
 }

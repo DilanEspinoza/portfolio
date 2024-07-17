@@ -25,3 +25,9 @@ Estructura del proyecto
 1.- Sobre mi
 2.- Proyectos
 3.- Información de contacto 
+
+Tecnologías con las que se va ha construir el proyecto (portafolio)
+- React
+- JavaScript
+- Tailwind css
+
