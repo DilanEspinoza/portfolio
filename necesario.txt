@@ -1,0 +1,27 @@
+link de referencia para saber que es lo que necesitamos en nuestro proyecto :https://anywhere.epam.com/es/blog/portafolio-web
+
+Necesario para este proyecto (portafolio)
+
+1.- Ejemplos de tus mejores trabajos
+2.- Una página de servicios
+3.- Una página sobre mí
+4.- Una página de contacto
+5.- Buen código web
+
+- Las mejores ideas para un portafolio de desarrollador front-end
+	- Una combinación de colores atrevida
+	- Incluir animaciones en el sitio web
+	- Incluir elementos dinámicos para la página
+	- Utilizar espacios en blanco para facilitar la lectura de tu página
+
+- 5 elementos imprescindibles en el portafolio de un programador
+	1.- Enlace a cuentas de redes sociales
+	2.- Añadir trabajo extracurricular
+	3.- Ajuste sus muestras de trabajo
+	4.- Obtener una URL de dominio personalizada
+	5.- Optar por un diseño responsive y atractivo
+
+Estructura del proyecto 
+1.- Sobre mi
+2.- Proyectos
+3.- Información de contacto 
